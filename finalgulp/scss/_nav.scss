@@ -1,0 +1,16 @@
+// Editar Nav
+$navbar-dark-color : $secondary;
+$navbar-dark-hover-color: $light;
+
+.navbar{
+  .container{
+    .nav-link{
+      &:hover,
+      &:focus {
+      border-radius: 5px;
+      background-color: rgba($secondary, 0.75);
+      border: 1px solid $secondary;
+      }
+    }
+  }
+}

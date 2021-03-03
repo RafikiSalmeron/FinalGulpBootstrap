@@ -1,0 +1,36 @@
+// Editar dropdown
+$dropdown-border-color:$light;
+$dropdown-divider-bg:$light;
+$dropdown-link-color: $secondary;
+$dropdown-link-hover-color: $secondary;
+$dropdown-link-hover-bg:$primary;
+
+.dropdown-menu.show { 
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+}
+
+// Animación para dropdown
+@keyframes slideIn {
+    0% {
+      transform: translateY(4rem);
+      opacity: 0;
+      -webkit-transform: translateY(4rem);
+      -moz-transform: translateY(4rem);
+      -ms-transform: translateY(4rem);
+      -o-transform: translateY(4rem);
+}
+    100% {
+      transform:translateY(2rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(4rem);
+      opacity: 0;
+      -webkit-transform: translateY(4rem);
+      -moz-transform: translateY(4rem);
+      -ms-transform: translateY(4rem);
+      -o-transform: translateY(4rem);
+}
+  }

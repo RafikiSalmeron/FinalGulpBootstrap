@@ -1,0 +1,21 @@
+// Editar Cards
+$card-bg : rgba($light, 0.6);
+$card-color: $secondary;
+$card-border-color: $dark;
+$card-border-width: 2px;
+
+// Animación para botón
+.card-body{
+  .btn{
+    &:hover{
+      transform: scale(1.1);
+      background-color: $secondary;
+      color: $dark;
+      transition: all .5s ease;
+      -webkit-transition: all .5s ease ;
+      -moz-transition: all .5s ease ;
+      -ms-transition: all .5s ease;
+      -o-transition: all .5s ease;
+    }
+  }
+}
